@@ -77,4 +77,36 @@ form input[type=submit]{
     cursor: pointer;
 }
 
+.features{
+    max-width: 700px;
+    margin: 50px auto;
+}
+
+.feature{
+    margin: 50px 0;
+    display: flex;
+}
+
+.feature i{
+    color: #FF8C00;
+}
+
+.feature .fa{
+    font-size: 3em;
+}
+
+.feature .icon{
+    align-items: center;
+    justify-content: center;
+    width: 20vw;
+}
+
+.feature .desc{
+    display: flex;
+    flex-direction: column;
+    width: 80vw;
+}
+
+
+
 
