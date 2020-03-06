@@ -55,5 +55,26 @@ nav {
     vertical-align: middle;
 }
 
+form{
+    max-width: 500px;
+    text-align: center;
+    margin: 20px auto;
+}
+
+form input[type=email]{
+    height: 25px;
+    margin-top: 10px;
+}
+
+
+form input[type=submit]{
+    border: none;
+    width: 120px;
+    height: 25px;
+    margin-left: 10px;
+    background-color: gold;
+    font-weight: bold;
+    cursor: pointer;
+}
 
 
