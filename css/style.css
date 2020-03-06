@@ -10,6 +10,7 @@ html{
 
 body{
     font-family: 'Lato', sans-serif;
+    background-color: #EEEEEE;
 }
 
 
@@ -18,6 +19,12 @@ nav {
     background-color: white;
     padding-left: 30px;
     padding-right: 10px;
+    position: fixed;
+    top: 0;
+}
+
+header{
+    margin-top: 70px;
 }
   
 .logo {
@@ -40,10 +47,6 @@ nav {
     padding: 10px 15px;
     text-decoration: none;
     color: black;
-}
-  
-.nav-item:hover {
-    background-color: white;
 }
   
 .nav-item:hover a {
@@ -113,6 +116,68 @@ form input[type=submit]{
     justify-content: center;
 }
 
+.pricing{
+    max-width: 700px;
+    margin: 60px auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
 
+.product{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: calc(100% / 3);
+    margin: 10px;
+    border: 1px solid black;
+    border-radius: 3px;
+}
 
+.product > .level{
+    background-color: #ddd;
+    color: black;
+    padding: 15px 0;
+    width: 100%;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.product > h2{
+    margin-top: 15px;
+}
+
+.product > ol{
+    margin: 15px 0;
+}
+
+li{
+    list-style: none;
+}
+
+.product > button{
+    border: none;
+    margin: 15px 0;
+    background-color: #f1c40f;
+    font-weight: normal;
+}
+
+.btn{
+    padding: 0 20px;
+    height: 40px;
+    font-size: 1em;
+    border-radius: 2px;
+    text-transform: uppercase;
+}
+
+footer{
+    background-color: #DDDDDD;
+    display: flex;
+    justify-content: space-between;
+}
+
+footer p{
+    padding: 10px 15px;
+}
 
